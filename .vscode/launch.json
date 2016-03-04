@@ -8,7 +8,8 @@
 			"request": "launch",
 			"runtimeExecutable": "${execPath}",
             "sourceMaps": true,
-			"args": ["--extensionDevelopmentPath=${workspaceRoot}" ]
+			"args": ["--extensionDevelopmentPath=${workspaceRoot}" ],
+            "preLaunchTask": "npm"
 		}
 	]
 }
